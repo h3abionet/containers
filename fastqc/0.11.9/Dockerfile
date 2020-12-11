@@ -20,7 +20,8 @@ LABEL container.size="522MB"
 ################## INSTALLATION ######################
 USER root
 
-ENV Temp=/tmp
+RUN mkdir /software
+ENV Temp=/software
 
 RUN apt-get update -yqq \
      && apt-get -qq -y install  openjdk-11-jre-headless \
