@@ -39,8 +39,9 @@ USER ubuntu
 
 ENV PATH /usr/local/envs/MEGAHIT/bin/:$PATH
 
-#package testing 
-#run megahit --test
+#package testing:
+#To test megahit, run:
+# megahit --test
 #expected result:
 
 #2020-12-10 17:18:14 - MEGAHIT v1.2.9
